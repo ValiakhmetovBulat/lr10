@@ -1,0 +1,89 @@
+html {
+    font-family: 'Itim', cursive;
+}
+
+body {
+    margin: 0px;
+    background: url("/images/body-bg.jpg") no-repeat center top / cover;
+    background-color:black;
+}
+header {
+    background-color: mediumpurple;    
+    font-weight: bold;
+    font-size: 45px; 
+    display: table-cell;
+    vertical-align: middle;
+    width: 1920px;
+    height: 125px;
+    
+}
+
+.header-text {
+    padding-left: 20px;
+}
+
+.header-img {  
+    border-radius: 100px;
+    padding-left: 25px;  
+    vertical-align: middle;
+    width: 100px;
+}
+
+.body-title {
+    text-align: center;
+    color: white;
+    margin: 0px;
+    font-size: 25px;
+}
+
+.body-text {
+    color: white;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.first-part, .second-part {
+    margin-left: 125px;
+    margin-top: 50px;
+    opacity: 1.0;
+    padding-left: 5px;
+    background-color: black;
+    opacity: 0.7;
+    width: 400px;
+    height: 215px;
+}
+
+.ticket-input {
+    margin-top: 2px;
+    
+}
+
+#submit {
+    margin-left: 70px;
+}
+
+#result {
+    margin-top: 10px;
+    margin-left: 45px;
+    color: black;
+    background-color: white;
+    height: 20px;
+    width: 100px;
+}
+
+.u {
+    display: flex;
+    padding-left: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.de-cipher-text {
+    padding-left: 15px;
+    margin-top: 5px;
+}
+

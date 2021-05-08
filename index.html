@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">       
+    <title>LR10</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<header>
+    <div class="header">
+        <img class="header-img" src="/images/header-img.jpg">
+        <a class="header-text">Laboratory work №10</a>
+    </div>
+</header>
+<body onload="setVars()">
+    <div class="first-part">
+        <p class="body-title">Lucky Tickets Counter</p>
+        <p class="body-text">Enter minimal number of ticket</p>
+        <p class="ticket-input"><input type="text" id="minTicketNum" name="minTicketNum"></p>
+        <p class="body-text">Enter maximum number of ticket</p>
+        <p class="ticket-input"><input type="text" id="maxTicketNum" name="maxTicketNum"></p>
+        <div id = "submit">
+            <input type="submit" value="Count" onclick="getResult()">
+        </div>
+        <div id="result"></div>
+    </div>
+    <div class="second-part" id="second-part">
+        <p class="body-title">Gronsfeld Cipher</p>
+        <p class="body-text" id="key">Key</p>
+        <p class="body-text" id="cipher">Cipher</p>
+        <ul class="u">
+        <li><p class="body-text">De-Cipher</p></li>
+        <li><p class="ticket-input, de-cipher-text"><input type="text" id="de-cipher"></p></li>
+        </ul>
+        <div id = "submit">
+            <input type="submit" value="Count" onclick="checkDeCipher()">
+        </div>
+    </div>
+</body>
+
+</html>
