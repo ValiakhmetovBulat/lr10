@@ -18,9 +18,9 @@
     <div class="first-part">
         <p class="body-title">Lucky Tickets Counter</p>
         <p class="body-text">Enter minimal number of ticket</p>
-        <p class="ticket-input"><input type="text" id="minTicketNum" name="minTicketNum"></p>
+        <p class="ticket-input"><input type="text" id="minTicketNum" name="minTicketNum" placeholder="000000"></p>
         <p class="body-text">Enter maximum number of ticket</p>
-        <p class="ticket-input"><input type="text" id="maxTicketNum" name="maxTicketNum"></p>
+        <p class="ticket-input"><input type="text" id="maxTicketNum" name="maxTicketNum" placeholder="999999"></p>
         <div id = "submit">
             <input type="submit" value="Count" onclick="getResult()">
         </div>
@@ -32,7 +32,7 @@
         <p class="body-text" id="cipher">Cipher</p>
         <ul class="u">
         <li><p class="body-text">De-Cipher</p></li>
-        <li><p class="ticket-input, de-cipher-text"><input type="text" id="de-cipher"></p></li>
+        <li><p class="ticket-input, de-cipher-text"><input type="text" id="de-cipher" placeholder="Your variant of de-ciphereing..."></p></li>
         </ul>
         <div id = "submit">
             <input type="submit" value="Count" onclick="checkDeCipher()">
